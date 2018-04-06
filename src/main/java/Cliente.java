@@ -5,6 +5,10 @@ public class Cliente {
 	private String apellido;
 	private String dni;
 
+	public String getDni() {
+		return dni;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
